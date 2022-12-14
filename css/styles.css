@@ -1,0 +1,306 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+/* ==================<HEADER>=================== */
+.top-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+}
+.top-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.navigation {
+  margin-right: auto;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.menu-nav {
+  display: flex;
+  align-items: center;
+}
+
+.list-item {
+  margin-right: 40px;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.3;
+  color: #2E2F42;
+  text-transform: uppercase;
+  margin-right: 77px;
+}
+
+.span-logo {
+  color: #4D5AE5;
+}
+
+.menu-link {
+  font-weight: 600;
+  font-size: 16px;
+  color: #2E2F42;
+  line-height: 1.5;
+}
+
+.mail-link {
+  font-size: 16px;
+  font-weight: 400;
+  color: #434455;
+  line-height: 1.5;
+}
+
+.phone-link {
+  font-size: 16px;
+  font-weight: 400;
+  color: #434455;
+  line-height: 1.5;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #4D5AE5;
+}
+
+.mail-link:hover,
+.mail-link:focus {
+  color: #4D5AE5;
+}
+
+.phone-link:hover,
+.phone-link:focus {
+  color: #4D5AE5;
+}
+
+/* ==================</HEADER>=================== */
+
+
+/* =====================<HERO>====================== */
+.hero {
+  background-color: #2E2F42;
+  padding-top: 192px;
+  padding-bottom: 192px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 56px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1;
+  background-color: #2E2F42;
+  margin-bottom: 48px;
+}
+
+.modal-btn {
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4D5AE5;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px 16px 32px;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #fff;
+  color: #000;
+}
+
+/* =====================</HERO>====================== */
+
+
+
+/* =====================<ABOUT>====================== */
+
+.about-main {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+
+.about-list {
+  display: flex;
+}
+
+.about-item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.about-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2E2F42;
+  margin-bottom: 8px;
+}
+
+.about-content {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+/* =====================</ABOUT>====================== */
+
+/* =====================<GALLERY-MAIN>====================== */
+.gallery-main {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.container-gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
+.gallery-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.1;
+  color: #2E2F42;
+}
+
+/* =====================</GALLERY-MAIN>====================== */
+
+
+/* =====================<GALLERY-MAIN-PERSON>====================== */
+.gallery-person-main {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #F4F4FD;
+}
+
+.gallery-person-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
+.gallery-person-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-person-item {
+  text-align: center;
+}
+
+.gallery-person-img {
+  margin-bottom: 32px;
+}
+
+.gallery-person-name {
+  margin-bottom: 8px;
+}
+
+.gallery-person-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.1;
+  color: #2E2F42;
+}
+
+.gallery-person-name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2E2F42;
+}
+
+/* =====================</GALLERY-MAIN-PERSON>====================== */
+
+
+/* =====================<BOTTOM-FOOTER>====================== */
+
+.bottom-footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #2E2F42;
+}
+
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.3;
+  color: #F4F4FD;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.about-footer-content {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #E7E9FC;
+  width: 264px;
+}
+
+/* =====================</BOTTOM-FOOTER>====================== */

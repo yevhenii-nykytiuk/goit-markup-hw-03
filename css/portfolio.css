@@ -1,0 +1,42 @@
+/* ==================<HERO>=================== */
+
+.menu-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4D5AE5;
+  cursor: pointer;
+  border: none;
+}
+
+.menu-btn:hover,
+.menu-btn:focus {
+  background-color: #4D5AE5;
+  color: #fff;
+}
+
+/* ==================</HERO>=================== */
+
+/* ==================<PORTFOLIO>=================== */
+
+.portfolio-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2E2F42;
+}
+
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+/* ==================</PORTFOLIO>=================== */
+
+
+/* ==================<FOOTER>=================== */
+
+/* ==================</FOOTER>=================== */
+
