@@ -1,11 +1,28 @@
 /* ==================<HERO>=================== */
 
+.hero-portfolio {
+padding-top: 96px;
+padding-bottom: 152px;
+}
+
+.menu-list-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
+.menu-item-nav:not(:last-child) {
+  margin-right: 24px;
+}
+
 .menu-btn {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
   color: #4D5AE5;
   cursor: pointer;
+  padding: 12px 24px 12px 24px;
+  border-radius: 4px;
   border: none;
 }
 
@@ -19,11 +36,29 @@
 
 /* ==================<PORTFOLIO>=================== */
 
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -24px;
+  margin-left: -24px;
+}
+
+.portfolio-item {
+  margin-left: 24px;
+  margin-top: 24px;
+  flex-basis: calc(100% / 3 - 24px);
+}
+
+.portfolio-images {
+  padding-bottom: 32px;
+}
+
 .portfolio-title {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
   color: #2E2F42;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
