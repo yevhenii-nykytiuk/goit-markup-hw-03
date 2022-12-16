@@ -1,8 +1,8 @@
 /* ==================<HERO>=================== */
 
 .hero-portfolio {
-padding-top: 96px;
-padding-bottom: 152px;
+  padding-top: 96px;
+  padding-bottom: 152px;
 }
 
 .menu-list-nav {
@@ -20,7 +20,7 @@ padding-bottom: 152px;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
-  color: #4D5AE5;
+  color: #4d5ae5;
   cursor: pointer;
   padding: 12px 24px 12px 24px;
   border-radius: 4px;
@@ -29,7 +29,7 @@ padding-bottom: 152px;
 
 .menu-btn:hover,
 .menu-btn:focus {
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   color: #fff;
 }
 
@@ -67,7 +67,7 @@ padding-bottom: 152px;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
-  color: #2E2F42;
+  color: var(--color-black-bold) 2;
   margin-bottom: 8px;
 }
 
@@ -81,8 +81,6 @@ padding-bottom: 152px;
 
 /* ==================</PORTFOLIO>=================== */
 
-
 /* ==================<FOOTER>=================== */
 
 /* ==================</FOOTER>=================== */
-
